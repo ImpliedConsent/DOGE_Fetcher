@@ -1,4 +1,4 @@
-# 🐶 DOGE Data Fetcher
+# 🐶 DOGE Data Fetcher v1.1
 
 A lightweight Python utility for fetching and exporting savings, grants, leases, and payment contract data from [DOGE.gov](https://doge.gov) using their open public API.
 
@@ -27,7 +27,7 @@ pip install requests pandas
 Run the script directly via command line:
 
 ```bash
-python doge_fetcher.py --endpoint savings/contracts --key contracts --filename contracts.csv
+python doge_fetcher_v1.1.py --endpoint savings/contracts --key contracts --filename contracts.csv
 ```
 
 ### Parameters
@@ -42,9 +42,9 @@ python doge_fetcher.py --endpoint savings/contracts --key contracts --filename c
 ## 📁 Example Commands
 
 ```bash
-python doge_fetcher.py --endpoint savings/contracts --key contracts --filename doge_contracts.csv
-python doge_fetcher.py --endpoint savings/grants --key grants --filename doge_grants.csv
-python doge_fetcher.py --endpoint savings/leases --key leases --filename doge_leases.csv
+python doge_fetcher_v1.1.py --endpoint savings/contracts --key contracts --filename doge_contracts.csv
+python doge_fetcher_v1.1.py --endpoint savings/grants --key grants --filename doge_grants.csv
+python doge_fetcher_v1.1.py --endpoint savings/leases --key leases --filename doge_leases.csv
 ```
 
 ## 📄 License
