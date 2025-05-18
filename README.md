@@ -1,6 +1,6 @@
-# 🐶 DOGE Data Fetcher v1.2
+# 🐶 DOGE Data Fetcher v1.2 is distributed as a python script and as a Windows app
 
-A lightweight Python utility for fetching and exporting savings, grants, leases, and payment contract data from [DOGE.gov](https://doge.gov) using their open public API.
+A lightweight Windows and Python utility for fetching and exporting savings, grants, leases, and payment contract data from [DOGE.gov](https://doge.gov) using their open public API.
 
 ## 🚀 Features
 
@@ -10,7 +10,8 @@ A lightweight Python utility for fetching and exporting savings, grants, leases,
 - Modular function and CLI support
 - Easily extendable to other government APIs
 
-## 📦 Requirements
+## 📦 Windows Requirements: None
+## 📦 Python Requirements
 
 - Python 3.7+
 - `requests`
@@ -53,4 +54,4 @@ This project is released under the MIT License.
 
 ---
 
-Built by a data nerd, for data nerds.
+Built by Michael Murphy
