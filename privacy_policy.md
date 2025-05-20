@@ -14,7 +14,7 @@ Third-Party Services:
 DOGE Fetcher does not use any third-party analytics, advertising, or cloud services.
 
 User Consent:
-By using DOGE Fetcher, you acknowledge and accept this privacy policy. If you have any questions, please contact the developer at: [your email address].
+By using DOGE Fetcher, you acknowledge and accept this privacy policy. If you have any questions, please contact the developer at: impliedconsent@live.com.
 
 Policy Changes:
 This privacy policy may be updated from time to time. Any updates will be posted to this document. Continued use of the App after policy updates signifies your acceptance.
