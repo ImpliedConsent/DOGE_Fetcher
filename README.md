@@ -111,4 +111,4 @@ For questions, feedback, or support, open an Issue or contact via GitHub.
 
 ---
 
-> *This repository is the official source for the Microsoft Store-approved DOGEFetcherGUI.exe, Python source code, and all supporting materials. Open source, transparent, and ready for Windows users and developers alike.*
+> *This repository is the official source for the Microsoft Store-approved DOGEFetcher.exe, Python source code, and all supporting materials. Open source, transparent, and ready for Windows users and developers alike.*
