@@ -1,57 +1,53 @@
-# 🐶 DOGE Data Fetcher v1.2 is distributed as a python script and as a Windows app
+**All files are located : https://github.com/ImpliedConsent/DOGE_Fetcher/releases**
 
-A lightweight Windows and Python utility for fetching and exporting savings, grants, leases, and payment contract data from [DOGE.gov](https://doge.gov) using their open public API.
+DOGE Fetcher for Windows v1.1 is a standalone Windows application for fast, transparent downloading of government efficiency data directly from the DOGE.gov API. Two version: GUI (run with DOGEFetcherGUI.exe and via PowerShell `python dogefetcherfw11gui.py`  ... or .. via CLI `python dogefetcherfw11.py` )
 
-## 🚀 Features
+**Features**
+- Modern Windows GUI (no console required, just double click the DOGEFetcherGUI.exe)
+- Fetches contracts, grants, leases, and payments
+- Exports data to timestamped CSV files
+- Batch fetch (up to 500 records/page) with full API pagination
+- Select output folder with standard Windows dialog
+- Real-time log window + one-click log save
+- Zero dependencies—just run the EXE (no Python or extra installs needed)
+- Custom DOGE icon for easy desktop access
 
-- Fetches contract, grant, lease, payment, and spend data from DOGE.gov
-- Handles pagination automatically
-- Outputs clean CSV files
-- Modular function and CLI support
-- Easily extendable to other government APIs
+**How to Use:**
+- Download and run DOGEFetcherGUI.exe
+- Choose your output folder
+- Set items per page (up to 500)
+- Click “Fetch All” to download fresh CSVs
+- Review/export logs as needed
 
-## 📦 Windows Requirements: None
-## 📦 Python Requirements
+Open source, fast, and transparent—no setup or runtime installs required.
 
-- Python 3.7+
-- `requests`
-- `pandas`
+For developers: Source code, build instructions, and Python scripts included in this repository.
 
-Install dependencies using pip:
+**Included in this release:**
+- DOGEFetcherGUI.exe
+The standalone Windows executable. No Python required—just download and run to launch the DOGE Fetcher GUI for fast, transparent data export from DOGE.gov.
+- dogefetcherfw11gui.py
+The full Python source code for the Tkinter GUI version. For advanced users or developers who wish to review, modify, or run the app directly from Python.
+- dogefetcherfw11.py
+The command-line version of the DOGE Fetcher, suitable for scripting and headless operation. Also exports timestamped CSVs and logs but without a GUI.
+- DOGEFetcherGUI.spec
+PyInstaller build specification file. Use this for reproducible EXE builds if you want to customize the packaging or audit the build process.
+- DOGEFetcherIcon.ico
+The custom application icon used in the Windows EXE. Can also be used for shortcuts or future packaging.
 
-```bash
-pip install requests pandas
-```
+**How to Use:**
+- Download and run DOGEFetcherGUI.exe for the full Windows experience.
+- Use dogefetcherfw11gui.py or dogefetcherfw11.py as needed if you prefer running from Python source.
+- DOGEFetcherGUI.spec and DOGEFetcherIcon.ico are included for transparency and development.
 
-## 🧠 Usage
+**Features:**
+- Fetches contracts, grants, leases, and payments from DOGE.gov
+- Timestamped CSV output
+- Paginated data (up to 500 records per page)
+- Log window and export
+- Selectable output folder
+- No dependencies for EXE version
 
-Run the script directly via command line:
-
-```bash
-python doge_fetcher_v1.2.py --endpoint savings/contracts --key contracts --filename contracts.csv
-```
-
-### Parameters
-
-| Argument     | Description                                         | Example                          |
-|--------------|-----------------------------------------------------|----------------------------------|
-| `--endpoint` | API endpoint relative to `https://api.doge.gov/`    | `savings/contracts`              |
-| `--key`      | Key in JSON where actual data is stored             | `contracts`                      |
-| `--filename` | Output CSV file name                                | `contracts.csv`                  |
-| `--limit`    | (Optional) Number of items per page (default: 1000) | `--limit 1000`                   |
-
-## 📁 Example Commands
-
-```bash
-python doge_fetcher_v1.2.py --endpoint savings/contracts --key contracts --filename doge_contracts.csv
-python doge_fetcher_v1.2.py --endpoint savings/grants --key grants --filename doge_grants.csv
-python doge_fetcher_v1.2.py --endpoint savings/leases --key leases --filename doge_leases.csv
-```
-
-## 📄 License
-
-This project is released under the MIT License.
-
----
-
+Open source, transparent, and ready for Windows users and developers alike.
+For instructions, see the README or included comments in each script.
 Built by Michael Murphy
