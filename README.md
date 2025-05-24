@@ -1,4 +1,4 @@
-# DOGE Fetcher
+# DOGE Fetcher for Windows v1.1
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Latest Release](https://img.shields.io/github/v/release/ImpliedConsent/DOGE_Fetcher?label=release)](https://github.com/ImpliedConsent/DOGE_Fetcher/releases)
@@ -7,7 +7,7 @@
 
 ## Overview
 
-**DOGE Fetcher v1.1** is a standalone Windows application for fast, transparent downloading of government efficiency data directly from the official DOGE.gov API.
+**DOGE Fetcher for Windows v1.1** is a standalone Windows application for fast, transparent downloading of government efficiency data directly from the official DOGE.gov API.
 
 There are two executables: `DOGEFetcher.exe` (*RECOMMENDED*, it's smaller) in the MAIN BRANCH is the MS Windows Store version; `DOGEFetcherGUI.exe` in the `\releases` branch is the python created executable, but all source code is available to anyone. 
 
