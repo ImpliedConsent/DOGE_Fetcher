@@ -1,4 +1,4 @@
-**All files are located : https://github.com/ImpliedConsent/DOGE_Fetcher/releases**
+**All open source files are located : https://github.com/ImpliedConsent/DOGE_Fetcher/releases**
 
 DOGE Fetcher for Windows v1.1 is a standalone Windows application for fast, transparent downloading of government efficiency data directly from the DOGE.gov API. Two version: GUI (run with DOGEFetcherGUI.exe and via PowerShell `python dogefetcherfw11gui.py`  ... or .. via CLI `python dogefetcherfw11.py` )
 
