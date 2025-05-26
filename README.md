@@ -1,4 +1,4 @@
-# DOGE Fetcher for Windows v1.1
+# DOGE Fetcher for Windows v1.5
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Latest Release](https://img.shields.io/github/v/release/ImpliedConsent/DOGE_Fetcher?label=release)](https://github.com/ImpliedConsent/DOGE_Fetcher/releases)
@@ -7,16 +7,16 @@
 
 ## Overview
 
-**DOGE Fetcher for Windows v1.1** is a standalone Windows application for fast, transparent downloading of government efficiency data directly from the official DOGE.gov API.
+**DOGE Fetcher for Windows v1.5** is a standalone Windows application for fast, transparent downloading of government efficiency data directly from the official DOGE.gov API.
 
-There are two executables: `DOGEFetcher.exe` (*RECOMMENDED*, it's smaller) in the MAIN BRANCH is the MS Windows Store version; `DOGEFetcherGUI.exe` in the `\releases` branch is the python created executable, but all source code is available to anyone. 
+There are two executables: `DOGEFW15.exe` (*RECOMMENDED*, it's smaller) in the MAIN TREE is the MS Windows Store version; `DOGEFetcherGUI.exe` in the `\releases` branch is the python created executable, but all source code is available to anyone. 
 
-**The version of `DOGEFetcher.exe` found in the *main branch* is the same executable that has been submitted to and approved by the Microsoft Store.**
+**The version of `DOGEFW15.exe` found in the *main tree* is the same executable that has been submitted to and approved by the Microsoft Store.**
 
 DOGE Fetcher is available in two main forms:
 
 - **Windows Microsoft approved GUI Application:**  
-  - `DOGEFetcher.exe` (standalone EXE in the MAIN BRANCH; no Python or extra installs needed)
+  - `DOGEFW15.exe` (standalone EXE in the MAIN TREE; no Python or extra installs needed)
   - Also available on the Microsoft Store:  
     [![Available on Microsoft Store](https://img.shields.io/badge/Microsoft%20Store-Download-blue?logo=microsoft)](https://apps.microsoft.com/detail/9P2LG65508RM)
 
@@ -30,7 +30,7 @@ DOGE Fetcher is available in two main forms:
 
 ## Microsoft Store
 
-**Get DOGE Fetcher directly from the Microsoft Store:**  
+**Get DOGE Fetcher for Windows directly from the Microsoft Store:**  
 [https://apps.microsoft.com/detail/9P2LG65508RM](https://apps.microsoft.com/detail/9P2LG65508RM)
 
 The Microsoft Store version is kept in sync with this repository's official releases.
@@ -39,7 +39,7 @@ The Microsoft Store version is kept in sync with this repository's official rele
 
 ## Features
 
-- Modern Windows GUI—just double-click `DOGEFetcher.exe` (Store version) or `DOGEFetcherGUI.exe` (Python Version under /releases) (no console required)
+- Modern Windows GUI—just double-click `DOGEFW15.exe` (Store version) or `DOGEFetcherGUI.exe` (Python Version under /releases) (no console required)
 - Fetches contracts, grants, leases, and payments from DOGE.gov
 - Exports data to timestamped CSV files
 - Batch fetch (up to 500 records per page) with full API pagination
@@ -54,7 +54,7 @@ The Microsoft Store version is kept in sync with this repository's official rele
 ## How to Use
 
 ### Windows GUI (Recommended)
-1. **Download and run `DOGEFetcher.exe` or `DOGEFetcherGUI.exe` from /releases**  
+1. **Download and run `DOGEFW15.exe` or `DOGEFetcherGUI.exe` from /releases**  
    - Get it from [Releases](https://github.com/ImpliedConsent/DOGE_Fetcher/) or the [Microsoft Store](https://apps.microsoft.com/detail/9P2LG65508RM)
 2. **Choose your output folder**
 3. **Set items per page** (up to 500)
@@ -88,7 +88,7 @@ No Python or setup required—just run the EXE.
 
 ## Included in This Release
 
-- `DOGEFetcherGUI.exe` - Under main brain; Microsoft Store version
+- `DOGEFW15.exe` - Under main brain; Microsoft Store version
 - `releases\DOGEFetcherGUI.exe` – Python created standalone Windows executable (no dependencies)
 - `releases\dogefetcherfw11gui.py` – Tkinter GUI Python source
 - `releases\dogefetcherfw11.py` – CLI Python source
